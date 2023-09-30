@@ -1,0 +1,19 @@
+<header>
+  <h1>Counter App</h1>
+</header>
+
+<main class="container mt-5">
+  <section>
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <div class="input-group">
+          <input type="text" class="form-control"  value="{{count}}">
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary" (click)="increment()">+</button>
+            <button class="btn btn-outline-secondary" (click)="decrement()">-</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

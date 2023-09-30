@@ -1,0 +1,9 @@
+input {
+  padding: .25em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+button:last-child {
+  margin-left: 10px;
+}
